@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    padding-top: 20px 0;
+}
+.container{
+    max-width: 1140px;
+    width: 100%;
+    padding: 20px 0;
+    margin: 0 auto;
+}
+.header__logos{
+    display: flex;
+    align-items: center;
+}
+.header__nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__list{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    margin-left: 96px;
+    list-style: none;
+}
+.header__link{
+    color: #222222;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.header__btn{
+    border: 2px solid #de2e54;
+    border-radius: 8px;
+    width: 225px;
+    padding: 10px 0;
+    background-color: #ffffff;
+    color: #de2e54;
+    font-family: "Open Sans Condensed";
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.hero__btn{
+    background-color: #de2e54;
+    color: #ffffff;
+}
+.hero{
+    position: relative;
+    padding-top: 50px;
+    background-size: cover;
+    padding-bottom: 217px;
+    background-image: url("./images/image\ 4.png");
+    background-repeat: no-repeat;
+}
+.hero__textbox{
+    width: 500px;
+}
+.hero__title{
+    color: rgb(255, 255, 255);
+    font-family: "Open Sans Condensed";
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 120%;
+}
+.hero__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hero__wrapper > img {
+    position: absolute;
+    right: 200px;
+    top: 0px;
+    
+}
+.h2-2{
+    text-align: center;
+}
+.div{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 350px;
+}
+.div-2{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 350px;
+
+}
+.img-1{
+margin-left:350px ;
+}
+.img-2{
+margin-right: 310px;
+margin-bottom:30px ;
+}
+
+.igm-1{
+    position: absolute;
+    right: 950px;
+}
+.igm-2{
+    position: absolute;
+    right: 550px;
+}
+.igm-3{
+    position: absolute;
+    right: 150px;
+}
+
+.bascuun-color{
+    margin-top:200px ;
+    background-color: #0eb4c1;
+    width: 1800px;
+    height:669px; }
+
+    .igm-{
+        position: absolute;
+        top: 1450px;
+        right:900px;
+    }
+    .igm-2{
+        position: absolute;
+        top: 1450px;
+        right:200px;
+    }
+    .ty{
+        background-color: black;
+    
+    }
